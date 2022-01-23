@@ -1,0 +1,10 @@
+
+# generated directories that do not need to be version controlled
+public/
+resources/_gen/
+
+# private files
+private/
+
+# lock file used to sync file additions and builds
+.hugo_build.lock

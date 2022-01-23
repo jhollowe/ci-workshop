@@ -1,0 +1,23 @@
+# baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'CI/CD Workshop Blog'
+theme: PaperMod
+
+
+params:
+  description: An example Hugo site to demonstrate CI tasks which require build steps
+  author: jhollowe
+
+  ShowReadingTime: true
+  defaultTheme: auto
+
+  homeInfoParams:
+    Title: "Welcome"
+    Content: >
+      This site is a simple demostration site of Hugo in a CI/CD pipeline.
+
+  socialIcons:
+        - name: github
+          url: "https://github.com/jhollowe/ci-workshop"
+        - name: RsS
+          url: "index.xml"
